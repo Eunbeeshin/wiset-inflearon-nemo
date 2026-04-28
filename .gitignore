@@ -23,6 +23,7 @@ wheels/
 data/*.csv
 data/*.xlsx
 data/*.json
+!data/dashboard_data.json
 data/*.parquet
 data/*.db
 
