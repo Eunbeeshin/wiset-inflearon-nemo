@@ -12,9 +12,10 @@ style: |
     font-family: 'Space Mono', monospace;
     color: #FF64C8;
     background: linear-gradient(180deg, #1A0533 0%, #2D0057 50%, #570038 100%);
-    padding: 40px;
+    padding: 25px 40px;
     position: relative;
     overflow: hidden;
+    font-size: 18px;
   }
 
   /* Perspective Grid */
@@ -41,18 +42,19 @@ style: |
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 45px;
     background: linear-gradient(to bottom, #FF9F43, #FF6B9D, #C44DFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
   }
 
   h2 {
     color: #C44DFF;
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
   }
 
   p, li, blockquote {
@@ -65,10 +67,11 @@ style: |
     font-family: 'Bebas Neue';
     background: rgba(255, 100, 200, 0.3);
     color: #FF9F43;
-    padding: 5px 15px;
+    padding: 3px 12px;
     border: 1px solid #FF64C8;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
 
   img {
@@ -76,7 +79,7 @@ style: |
     box-shadow: 0 0 20px rgba(255, 100, 200, 0.5);
     z-index: 1;
     position: relative;
-    max-height: 300px;
+    max-height: 280px;
   }
 
   .columns {
@@ -90,10 +93,11 @@ style: |
   .summary {
     background: rgba(26, 5, 51, 0.8);
     border: 1px solid #C44DFF;
-    padding: 15px;
+    padding: 10px 15px;
     color: #FF9F43;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 16px;
   }
 
   /* Sliced Sun */
